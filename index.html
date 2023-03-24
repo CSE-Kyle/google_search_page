@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <title>Google | Home</title>
+    </head>
+
+    <body id="home">
+        <header>
+            <nav id="navbar">
+                <div class="container">
+                    <ul>
+                        <li>
+                            <a href="images.html">Images</a>
+                        </li>
+                        <li>
+                            <a href="#">Advanced Search</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <form action="https://www.google.com/search">
+            <section class="searcher">
+                <div class="wrapper">
+                    <img src="./img/google-logo.png" alt="google-logo">
+
+                    <div class="input">
+                        <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+                        <input type="search" class="textbox" placeholder="Search Google or type a URL"
+                        id="input-box" name="q" spellcheck="false" value="">
+                    </div>
+                    
+                    <div class="btn-search">
+                        <button type="submit" class="btn-google btn-" name="btnK" value="Google Search">Google Search</button>
+                        <button type="submit" class="btn-google btn-" name="btnI" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
+                    </div>
+                </div>
+            </section>
+        </form>
+    </body>
+</html>

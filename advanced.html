@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="advanced.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html"><img id="google-logo" src="./img/google-logo.png" alt="logo-google"></a>
+            <h1 id="header">Advanced Search</h1>
+        </header>
+
+        <div id="line"></div>
+        <br>
+        <form action="https://google.com/search" name="f">
+            <h4>Find pages with...</h4>
+            <div class="field">
+                <label for="field1">all these words:</label>
+                <input type="text" class="textinput" id="field1" value=""  name="as_q">
+                <label for="field1-info" class="field-info">type the important words: tricolor rat terrier</label>
+            </div>
+            <br>
+            <div class="field">
+                <label for="field2">this exact word or phrase: </label>
+                <input type="text" class="textinput" id="field2" value=""  name="as_epq">
+                <label for="field2-info" class="field-info">Put exact words in quotes: "rat terrier"</label>
+            </div>
+            <br>
+            <div class="field">
+                <label for="field3">any of this words: </label>
+                <input type="text" class="textinput" id="field3" value=""  name="as_oq">
+                <label for="field3-info" class="field-info">Type OR between all the words you want: miniature OR standard</label>
+            </div>
+            <br>
+            <div class="field">
+                <label for="field4">none of these words: </label>
+                <input type="text" class="textinput" id="field4" value=""  name="as_eq">
+                <label for="field4-info">Put a minus sign before words you don't want:</label>
+                <label for="field4-info" class="field-info">-rodent, -"Jack Russell"</label>
+            </div>
+            <br>
+            <input type="submit" value="Advanced Search" id="btn-search">
+        </form>
+    </body>
+</html>

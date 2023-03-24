@@ -1,0 +1,46 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+#google-logo {
+    width: 5%;
+    padding: 20px;
+}
+
+#header {
+    color: #d93025;
+    margin-left: 25px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#line {
+    border-bottom: 1px solid #ebebeb;
+}
+
+label {
+    font-size: 13px;
+}
+
+.textinput {
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+#btn-search {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4d90fe;
+    color: #fff;
+    cursor: pointer;
+}
+
+#btn-search:hover {
+    background-color: #2d7dfe;
+    transition: 0.3s;
+}
